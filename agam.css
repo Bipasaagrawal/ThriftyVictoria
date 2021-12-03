@@ -1,0 +1,78 @@
+.head2>h1{
+	font-family: 'Anton';
+	font-size: 72px;
+	margin-left: 4%;
+}
+.head2>p{
+	font-family: 'Roboto Mono';
+	font-size: 20px;
+	margin-left: 4%;
+}
+h2{	
+	font-family: 'Abril Fatface';
+	font-size: 23px;
+	font-weight: bolder;
+}
+h2{
+	background-color: LightYellow;
+	text-align: center;
+}
+h3{
+	font-family: 'Poppins';
+	font-size: 16.9px;
+}
+p,ul{
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+.middle{
+	position: absolute;
+	border-left:3px solid black;
+	right: 14%;
+	padding-left: 30px;
+	padding-right: 370px;
+	background-color: #f4efd3;
+	z-index: +3;
+
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left{
+	position: absolute;
+	left: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #ddd8ff;
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	z-index: -1;
+}
+.right{
+	position: absolute;
+	right: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #ddd8ff;
+	background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+	z-index: +5;
+	width:33%;
+}
+.experience>p{
+	line-height: 0.0;
+}
+.academics>p{
+	line-height: 1.2;
+}
+
+
